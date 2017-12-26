@@ -32,7 +32,7 @@ CREATE TABLE searchIndex(id INTEGER PRIMARY KEY, name TEXT, type TEXT, path TEXT
 
 ```
 INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES ('guide', 'Guide', './guide/zh/index.html');
-INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES ('syntax', 'Guide', './guide/zh/index.html');
+INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES ('syntax', 'Guide', './api/index.html?syntax-en');
 INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES ('api', 'Guide', './api/index.html?api-zh');
 INSERT OR IGNORE INTO searchIndex(name, type, path) VALUES ('regularjs', 'Guide','https://github.com/regularjs');
 ```
